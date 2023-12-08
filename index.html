@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>www.weather.com</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500&family=Barriecito&family=Bruno+Ace+SC&family=Delicious+Handrawn&family=Edu+NSW+ACT+Foundation:wght@500&family=Fasthand&family=Kalam:wght@300&family=Martian+Mono:wght@200;300;400&family=Nunito:wght@400;600&family=Roboto&family=Rubik:wght@300&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="everything">
+  <div class="frame">
+  <div class="container" style="margin:auto; ">
+    <nav class="navbar bg-body-tertiary"  >
+      <div class="container-fluid">
+        <img  style="border: 1px solid black; padding: 2px; border-radius: 5px;"src="logo.png" id="logo" alt="#">
+        <a class="navbar-brand" style="font-size: 30px; ">Weather DashBoard</a>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2 " id="cityname" type="search" placeholder="Eg;  Jalandhar"
+            aria-label="Search">
+          <button class="btn btn-outline-success"  style="border:2px solid rgb(66, 64, 64); color:rgb(72, 69, 69)"type="button">Find</button>
+        </form>
+      </div>
+    </nav>
+  </div>
+  <div class="container2">
+    <div class="cityTemp">
+      <h1 id="city">Jalandhar</h1>
+      <h1 id="temp">+21&deg;C</h1>
+    </div>
+    <div class="points">
+    <img  id="img2" src="sun2.jpg" alt="#">
+   
+      <div class="part1">
+        <div>
+          <h1>Visibility </h1>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          <h1 id="visib" style="text-decoration: underline;">1000 Metre</h1>
+        </div>
+        <div>
+          <h1>Humidity </h1>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          <h1 id="humidity" style="text-decoration: underline;">50 g/m<sup>3</sup></h1>
+        </div>
+        <div>
+          <h1>WindSpeed </h1>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          <h1 id="windspeed" style="text-decoration: underline;">5km/hr</h1>
+        </div>
+     
+        <div>
+          <h1>Max.Temp </h1>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          <h1 id="maxmtemp" style="text-decoration: underline;">35&deg;C</h1>
+        </div>
+        <div>
+          <h1>Min.Temp </h1>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          <h1 id="minmtemp" style="text-decoration: underline;">20&deg;C</h1>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </div>
+</div>
+</div>
+  <script src="script.js"></script>
+</body>
+
+</html>

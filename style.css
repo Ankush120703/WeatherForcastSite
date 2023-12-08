@@ -1,0 +1,120 @@
+* {
+    font-family: Nunito;
+    font-weight: 600;
+
+
+}
+.everything{
+    background-color: rgb(164, 240, 240);
+    height: 100vh;
+}
+
+.frame{
+    width: 80vw;
+    height: 50vh;
+    margin:  0 10vw ;
+    border-radius: 50px;
+   
+}
+
+.container-fluid{
+    background-color: 
+    #0190d2;
+    width: fit-content;
+   
+    
+}
+
+.container2 {
+    /* background-image: url(sunwithnormal.jpg); */
+    background-color: rgb(187, 228, 248);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+}
+
+.cityTemp {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.part1 {
+    background-image: url(cloud.jpg);
+    display: flex;
+    flex-direction: column;
+    border: 2px solid yellow;
+    padding: 10px;
+    border-radius: 10px;
+    width: auto;
+
+}
+
+.part2 {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid yellow;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#city {
+    font-size: 3rem;
+    color:rgb(73, 73, 73);
+}
+
+#temp {
+    font-size: 3rem;
+    color:rgb(73, 73, 73);
+}
+
+.points {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    
+}
+
+.points div {
+    display: flex;
+}
+
+#logo {
+    height: 50px;
+}
+
+img {
+    height: 200px;
+    /* border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px; */
+    /* border-radius: 50%; */
+    
+    border-radius: 20px;
+    /* border: 5px solid yellow; */
+    box-shadow: 0 0px 10px white;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+nav{
+    position: sticky;
+}
+ 
+   @media(max-width:800px){
+    .frame{
+        margin: 10vw;
+    }
+     .points img{
+        display: none;
+     }
+
+   }
